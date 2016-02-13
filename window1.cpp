@@ -4,7 +4,7 @@ window1::window1() : QWidget()
 {
  slider=new QSlider(Qt::Horizontal);
  bar= new QProgressBar;
- button=new QPushButton("click");
+ button=new QPushButton("click to add value");
  slider->setMinimum(0);
  slider->setMaximum(100);
  QVBoxLayout* layout= new QVBoxLayout;
